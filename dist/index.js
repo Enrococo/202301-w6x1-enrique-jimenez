@@ -8,5 +8,5 @@ app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
 app.post('/', (req, res) => {
-  res.send('Hello from posting');
+  res.send('Hello from the other side');
 });
