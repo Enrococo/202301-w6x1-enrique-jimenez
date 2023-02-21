@@ -11,5 +11,5 @@ app.listen(port, () => {
 });
 
 app.post('/', (req, res) => {
-  res.send('Hello from posting');
+  res.send('Hello from the other side');
 });
